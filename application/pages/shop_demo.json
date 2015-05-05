@@ -20,23 +20,13 @@
                   "resource": "articles"
                },
                "selection": {
-                  "resource": "selectedArticle"
+                  "resource": "selectedArticle",
+                  "action": "addToCart"
                }
             }
          }
       ],
       "right": [
-         {
-            "widget": "shop_demo/article-teaser-widget",
-            "features": {
-               "article": {
-                  "resource": "selectedArticle"
-               },
-               "confirmation":   {
-                  "action": "addToCart"
-               }
-            }
-         },
          {
             "widget": "shop_demo/shopping-cart-widget",
             "features": {
