@@ -63,7 +63,7 @@ define( [
 
       function itemByArticle( article ) {
          return $scope.cart.filter( function( item ) {
-            return article === item.article;
+            return article.id === item.article.id;
          } )[ 0 ] || null;
       }
 
