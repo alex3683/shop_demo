@@ -18,23 +18,6 @@
       text-align: center;
    }
 
-   .dl-horizontal {
-      dt {
-         width: 100px;
-         float: left;
-         text-align: right;
-      }
-      dd {
-         margin-left: 120px;
-         width: 240px;
-      }
-   }
-
-   dt ~ dt,
-   dd ~ dd {
-      margin-top: 1em;
-   }
-
    .app-no-selection {
       color: $brand-danger;
       text-align: center;
@@ -45,17 +28,36 @@
    }
 
 
+   .dl-horizontal {
+
+      dt {
+         width: 35%;
+         float: left;
+         text-align: right;
+      }
+      dd {
+         margin-left: 40%;
+         width: 65%;
+      }
+   }
+
+   dt ~ dt,
+   dd ~ dd {
+      margin-top: 1em;
+   }
+
+   .app-teaser-image-wrapper {
+      text-align: center;
+      padding: 1rem 0;
+   }
+
+   .app-teaser-image {
+      max-width: 90%;
+      max-height: 170px;
+   }
+
    .app-teaser-wrapper {
       position: relative;
-      min-height: 240px;
-
-      .app-teaser-image {
-         position: absolute;
-         max-width: 300px;
-         max-height: 180px;
-         top: 48px;
-         right: 12px;
-      }
 
       padding: 0 6px;
       margin-bottom: $ax-unit-vertical-double;

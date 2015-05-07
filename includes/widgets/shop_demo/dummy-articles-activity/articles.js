@@ -3,14 +3,14 @@ define( function() {
    return [
       {
          'id': 'B009K2QULM',
-         'picture': 'mug.jpg',
+         'picture': 'mug.png',
          'name': 'LaxarJS the Mug',
          'htmlDescription': 'A mug branded with LaxarJS logo, for hot or cold drinks, or hot drinks becoming cold. Or cold drinks becoming luke warm.',
          'price': 9.95
       },
       {
          'id': 'B00H13X4A2',
-         'picture': 'stickers.jpg',
+         'picture': 'stickers.png',
          'name': 'LaxarJS Stickers',
          'htmlDescription': 'A beautiful set of stickers with LaxarJS logo. Can turn any stuff into valuable LaxarJS merchandise.',
          'price': 0.99
@@ -29,14 +29,14 @@ define( function() {
       },
       {
          'id': 'B0044I7GG0',
-         'picture': 'shirt.jpg',
+         'picture': 'shirt.png',
          'name': 'LaxarJS T-Shirt',
          'htmlDescription': 'Relax wearing this comfy shirt while brandishing the orange of <em>LaxarJS</em>',
          'price': 25.90
       },
       {
          'id': 'B00JP3ZA0I',
-         'picture': 'bus.jpg',
+         'picture': 'eventbus.png',
          'name': 'Original Event-Bus',
          'htmlDescription': 'They say some folk never grow up, but why should they? This, however, is no mere toy. It is a bus. A bus to take you on an <em>event-ful</em> trip!',
          'price': 417.95
@@ -49,14 +49,14 @@ define( function() {
       },
       {
          'id': 'B00ET1YH6E',
-         'picture': 'sweets.jpg',
+         'picture': 'sweets.png',
          'name': 'LaxarJS Sweets',
          'htmlDescription': 'LaxarJS gummy bears in different colors (mostly orange).',
          'price': 1.99
       },
       {
          'id': 'B001JYMYTG',
-         'picture': 'pen.jpg',
+         'picture': 'pen.png',
          'name': 'LaxarJS Pen',
          'htmlDescription': 'Report issues in style and submit your pull-requests by hand! Keyboards are <em>so</em> 21st century.',
          'price': 19.99
@@ -69,7 +69,7 @@ define( function() {
       },
       {
          'id': 'B003NE5LH2',
-         'picture': 'bin.jpg',
+         'picture': 'bin.png',
          'name': 'LaxarJS Recycle Bin',
          'htmlDescription': 'Just throw it away!',
          'price': 49.95

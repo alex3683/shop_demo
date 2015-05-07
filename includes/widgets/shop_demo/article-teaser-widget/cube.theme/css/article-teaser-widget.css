@@ -12,56 +12,57 @@
   font-size: 14px;
   text-align: center;
 }
-/* line 22, ../../default.theme/scss/article-teaser-widget.scss */
-.article-teaser-widget .dl-horizontal dt {
-  width: 100px;
-  float: left;
-  text-align: right;
-}
-/* line 27, ../../default.theme/scss/article-teaser-widget.scss */
-.article-teaser-widget .dl-horizontal dd {
-  margin-left: 120px;
-  width: 240px;
-}
-/* line 33, ../../default.theme/scss/article-teaser-widget.scss */
-.article-teaser-widget dt ~ dt,
-.article-teaser-widget dd ~ dd {
-  margin-top: 1em;
-}
-/* line 38, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 21, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-no-selection {
   color: #ed5565;
   text-align: center;
 }
-/* line 43, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 26, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget h3.app-selection {
   color: #5bc0de;
 }
-/* line 48, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 33, ../../default.theme/scss/article-teaser-widget.scss */
+.article-teaser-widget .dl-horizontal dt {
+  width: 35%;
+  float: left;
+  text-align: right;
+}
+/* line 38, ../../default.theme/scss/article-teaser-widget.scss */
+.article-teaser-widget .dl-horizontal dd {
+  margin-left: 40%;
+  width: 65%;
+}
+/* line 44, ../../default.theme/scss/article-teaser-widget.scss */
+.article-teaser-widget dt ~ dt,
+.article-teaser-widget dd ~ dd {
+  margin-top: 1em;
+}
+/* line 49, ../../default.theme/scss/article-teaser-widget.scss */
+.article-teaser-widget .app-teaser-image-wrapper {
+  text-align: center;
+  padding: 1rem 0;
+}
+/* line 54, ../../default.theme/scss/article-teaser-widget.scss */
+.article-teaser-widget .app-teaser-image {
+  max-width: 90%;
+  max-height: 170px;
+}
+/* line 59, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-wrapper {
   position: relative;
-  min-height: 240px;
   padding: 0 6px;
   margin-bottom: 20px;
 }
-/* line 52, ../../default.theme/scss/article-teaser-widget.scss */
-.article-teaser-widget .app-teaser-wrapper .app-teaser-image {
-  position: absolute;
-  max-width: 300px;
-  max-height: 180px;
-  top: 48px;
-  right: 12px;
-}
-/* line 63, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 65, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-wrapper.app-selection {
   border-color: #5bc0de;
 }
-/* line 66, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 68, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-wrapper.app-selection h4 {
   background-color: #5bc0de;
   color: white;
 }
-/* line 73, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 75, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .btn-default.ax-disabled {
   background-color: white;
   border-color: #ccc;
