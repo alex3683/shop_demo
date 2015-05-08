@@ -52,6 +52,8 @@ var require = {
    paths: {
       // LaxarJS Core:
       requirejs: 'requirejs/require',
+      text: 'requirejs-plugins/lib/text',
+      json: 'requirejs-plugins/src/json',
       jquery: 'jquery/dist/jquery',
       angular: 'angular/angular',
       'angular-mocks': 'angular-mocks/angular-mocks',
@@ -63,10 +65,6 @@ var require = {
       // LaxarJS Core Testing:
       jasmine: 'jasmine/lib/jasmine-core/jasmine',
       q_mock: 'q_mock/q',
-
-      // LaxarJS Core Legacy:
-      text: 'requirejs-plugins/lib/text',
-      json: 'requirejs-plugins/src/json',
 
       // UIKit:
       jquery_ui: 'jquery_ui',
@@ -81,6 +79,7 @@ var require = {
       'laxar-path-themes': '../includes/themes',
       'laxar-path-flow': '../application/flow/flow.json',
 
+      'laxar-application': '..',
       'laxar-application-dependencies': '../var/static/laxar_application_dependencies'
    }
 };

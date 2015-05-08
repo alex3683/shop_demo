@@ -37,6 +37,7 @@
   padding: 1rem 0;
 }
 .article-teaser-widget .app-teaser-image {
+  max-width: -webkit-calc( 100% - 40px);
   max-width: calc( 100% - 40px);
   max-height: 170px;
 }

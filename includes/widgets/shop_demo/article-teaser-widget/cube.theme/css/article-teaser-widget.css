@@ -45,6 +45,7 @@
 }
 /* line 55, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-image {
+  max-width: -webkit-calc( 100% - 40px);
   max-width: calc( 100% - 40px);
   max-height: 170px;
 }
