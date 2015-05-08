@@ -31,12 +31,13 @@
    .dl-horizontal {
 
       dt {
-         width: 35%;
+         width: 9rem;
          float: left;
+         padding-right: 1rem;
          text-align: right;
       }
       dd {
-         margin-left: 40%;
+         margin-left:9rem;
          width: 65%;
       }
    }
@@ -52,7 +53,7 @@
    }
 
    .app-teaser-image {
-      max-width: 90%;
+      max-width: calc( 100% - 40px);
       max-height: 170px;
    }
 

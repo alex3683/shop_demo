@@ -19,12 +19,13 @@
   color: #5bc0de;
 }
 .article-teaser-widget .dl-horizontal dt {
-  width: 35%;
+  width: 9rem;
   float: left;
+  padding-right: 1rem;
   text-align: right;
 }
 .article-teaser-widget .dl-horizontal dd {
-  margin-left: 40%;
+  margin-left: 9rem;
   width: 65%;
 }
 .article-teaser-widget dt ~ dt,
@@ -36,7 +37,7 @@
   padding: 1rem 0;
 }
 .article-teaser-widget .app-teaser-image {
-  max-width: 90%;
+  max-width: calc( 100% - 40px);
   max-height: 170px;
 }
 .article-teaser-widget .app-teaser-wrapper {

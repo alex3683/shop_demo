@@ -17,12 +17,14 @@ define( function() {
       },
       {
          'id': 'B002JM2DDO',
+         'picture': 'bottle.png',
          'name': 'LaxarJS Beer (Bottle)',
          'htmlDescription': 'Take a sip of pure LaxarJS beer, compiled from barley, hop and water.',
          'price': 0.65
       },
       {
          'id': 'B00C7JZALQ',
+         'picture': 'crate.png',
          'name': 'LaxarJS Beer (Crate)',
          'htmlDescription': 'Take several sips of pure LaxarJS beer, compiled from barley, hop and water!',
          'price': 13.99
@@ -43,7 +45,8 @@ define( function() {
       },
       {
          'id': 'B009ZAAG8C',
-         'name': 'Box of Chocolates',
+         'picture': 'chocolate.png',
+         'name': 'Chocolate Bar',
          'htmlDescription': 'Unlike with life, you\'ll know exactly what you\'re gonna get: Delicious Chocolates.',
          'price': 8.95
       },
@@ -60,12 +63,6 @@ define( function() {
          'name': 'LaxarJS Pen',
          'htmlDescription': 'Report issues in style and submit your pull-requests by hand! Keyboards are <em>so</em> 21st century.',
          'price': 19.99
-      },
-      {
-         'id': '3570005291',
-         'name': 'LaxarJS Matches',
-         'htmlDescription': 'Give me fire! Nice matches in a LaxarJS styled box.',
-         'price': 1.99
       },
       {
          'id': 'B003NE5LH2',

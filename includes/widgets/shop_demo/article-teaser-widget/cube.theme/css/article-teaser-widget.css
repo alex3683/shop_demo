@@ -23,46 +23,47 @@
 }
 /* line 33, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .dl-horizontal dt {
-  width: 35%;
+  width: 9rem;
   float: left;
+  padding-right: 1rem;
   text-align: right;
 }
-/* line 38, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 39, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .dl-horizontal dd {
-  margin-left: 40%;
+  margin-left: 9rem;
   width: 65%;
 }
-/* line 44, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 45, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget dt ~ dt,
 .article-teaser-widget dd ~ dd {
   margin-top: 1em;
 }
-/* line 49, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 50, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-image-wrapper {
   text-align: center;
   padding: 1rem 0;
 }
-/* line 54, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 55, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-image {
-  max-width: 90%;
+  max-width: calc( 100% - 40px);
   max-height: 170px;
 }
-/* line 59, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 60, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-wrapper {
   position: relative;
   padding: 0 6px;
   margin-bottom: 20px;
 }
-/* line 65, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 66, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-wrapper.app-selection {
   border-color: #5bc0de;
 }
-/* line 68, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 69, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .app-teaser-wrapper.app-selection h4 {
   background-color: #5bc0de;
   color: white;
 }
-/* line 75, ../../default.theme/scss/article-teaser-widget.scss */
+/* line 76, ../../default.theme/scss/article-teaser-widget.scss */
 .article-teaser-widget .btn-default.ax-disabled {
   background-color: white;
   border-color: #ccc;

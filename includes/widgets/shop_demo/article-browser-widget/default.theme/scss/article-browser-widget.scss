@@ -12,8 +12,7 @@ $app-articles-color: #737373;
 .article-browser-widget {
    position: relative;
 
-   .app-col-1 { width: 60px; }
-   .app-col-3 { width: 85px; }
+   .app-col-1 { width: 7rem; }
 
    .app-no-articles {
       color: $brand-danger;
